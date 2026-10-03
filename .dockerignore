@@ -1,0 +1,15 @@
+.git
+.next
+node_modules
+.env*
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+prototype
+passation.md
+AGENTS.md
+CLAUDE.md
+.claude
+README.md
+Dockerfile
+.dockerignore
