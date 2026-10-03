@@ -11,6 +11,8 @@ import { Testimonials } from "@/components/Testimonials";
 import { services } from "@/content/services";
 import { site } from "@/lib/site";
 
+const websiteLd = { "@context": "https://schema.org", "@type": "WebSite", name: site.name, url: site.url };
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
@@ -56,7 +58,7 @@ export default function Home() {
       </div>
 
       <ScrollEffects />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([websiteLd, jsonLd]).replace(/</g, "\\u003c") }} />
     </div>
   );
 }
