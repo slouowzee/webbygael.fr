@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { restoreScrollOnReload } from "@/lib/restore-scroll";
 import { ribbon } from "@/lib/ribbon";
 import { riseFooter } from "@/lib/rise-footer";
 
@@ -78,6 +79,7 @@ function scrollSmoothlyToAnchors(signal: AbortSignal, reduce: boolean) {
     const pin = ScrollTrigger.getAll().find(t => t.pin && (t.pin === el || t.pin.contains(el)));
     const top = a.hash === "#top" ? 0 : pin ? pin.start : el.getBoundingClientRect().top + scrollY;
     scrollTo({ top, behavior: reduce ? "auto" : "smooth" });
+    history.replaceState(null, "", a.hash === "#top" ? location.pathname : a.hash);
     if (!el.hasAttribute("tabindex")) el.tabIndex = -1;
     el.focus({ preventScroll: true });
   }, { signal, capture: true });
@@ -104,12 +106,13 @@ export function ScrollEffects() {
 
     if (fine) showHoveredServiceOnRibbon(list, signal);
     const animations = animateOnScroll();
+    const stopSavingScroll = restoreScrollOnReload();
     document.fonts?.ready.then(() => ScrollTrigger.refresh());
     if (location.hash) requestAnimationFrame(() => document.getElementById(location.hash.slice(1))?.scrollIntoView({ behavior: "instant" }));
     scrollSmoothlyToAnchors(signal, reduce);
     const stopPill = hidePillNearOtherBookingButtons();
 
-    return () => { animations.revert(); listeners.abort(); stopPill(); };
+    return () => { animations.revert(); listeners.abort(); stopPill(); stopSavingScroll(); };
   }, []);
 
   return null;

@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { restoreScrollOnReload } from "@/lib/restore-scroll";
 import { riseFooter } from "@/lib/rise-footer";
 
 export function LegalEffects() {
@@ -15,8 +16,9 @@ export function LegalEffects() {
       riseFooter(end, "bottom bottom", foot);
       return () => end.classList.remove("is-pinned");
     });
+    const stopSavingScroll = restoreScrollOnReload();
     document.fonts?.ready.then(() => ScrollTrigger.refresh());
-    return () => mm.revert();
+    return () => { mm.revert(); stopSavingScroll(); };
   }, []);
 
   return null;
