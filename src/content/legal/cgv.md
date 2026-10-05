@@ -1,6 +1,6 @@
 # Conditions Générales de Vente (CGV)
 
-*Dernière mise à jour : 22 septembre 2026*
+*Dernière mise à jour : 5 octobre 2026*
 
 **Prestataire :** Gaël Pilet, entrepreneur individuel — SIRET 10938587200014 — 62 avenue Maréchal Juin, 17000 La Rochelle — contact@webbygael.fr — TVA non applicable (art. 293 B du CGI).
 
@@ -23,7 +23,9 @@ Les tarifs sont ceux indiqués sur le devis accepté, en euros. Le Prestataire b
 
 - Un acompte de 30 % est demandé à la signature du devis.
 - Le solde est facturé à la livraison de la prestation et payable à réception de la facture.
-- Tout retard de paiement entraîne l'application de pénalités au taux légal en vigueur, ainsi qu'une indemnité forfaitaire de recouvrement de 40 € (Code de commerce).
+- Pour les clients professionnels, tout retard de paiement entraîne l'application de pénalités au taux de trois fois le taux d'intérêt légal en vigueur, exigibles dès le lendemain de la date d'échéance sans qu'un rappel soit nécessaire, ainsi qu'une indemnité forfaitaire de 40 € pour frais de recouvrement (article L441-10 du Code de commerce).
+- Pour les clients consommateurs, tout retard de paiement donne lieu, après mise en demeure, à des intérêts au taux légal (article 1231-6 du Code civil).
+- Aucun escompte n'est accordé pour paiement anticipé.
 
 ## Article 5 — Délais de réalisation
 
