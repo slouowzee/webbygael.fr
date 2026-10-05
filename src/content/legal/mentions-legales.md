@@ -1,6 +1,6 @@
 # Mentions légales
 
-*Dernière mise à jour : 22 septembre 2026*
+*Dernière mise à jour : 5 octobre 2026*
 
 ## Éditeur du site
 
@@ -9,7 +9,7 @@ Le site webbygael.fr est édité par :
 - **Nom / Raison sociale :** Gaël Pilet
 - **Forme juridique :** Entrepreneur individuel
 - **SIRET :** 10938587200014
-- **RCS :** dispensé (activité non commerciale) — immatriculé au RNE
+- **RCS :** La Rochelle 109 385 872
 - **Adresse du siège :** 62 avenue Maréchal Juin, La Rochelle, 17000
 - **Email :** contact@webbygael.fr
 - **Téléphone :** +33 7 80 62 54 50
