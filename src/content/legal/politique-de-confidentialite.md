@@ -1,8 +1,8 @@
 # Politique de confidentialité
 
-*Dernière mise à jour : 2 octobre 2026*
+*Dernière mise à jour : 6 octobre 2026*
 
-Cette politique décrit comment Gaël Pilet collecte et traite vos données personnelles lorsque vous utilisez le site webbygael.fr, conformément au Règlement Général sur la Protection des Données (RGPD).
+Cette politique décrit comment Gaël Pilet collecte et traite vos données personnelles lorsque vous utilisez le site webbygael.fr ou lorsque vous recevez et signez un devis, conformément au Règlement Général sur la Protection des Données (RGPD).
 
 ## Responsable du traitement
 
@@ -26,6 +26,12 @@ La réservation de visio passe par Cal.com, un service tiers. Les données que v
 
 Le site utilise Umami, une solution de statistiques auto-hébergée et respectueuse de la vie privée : **aucun cookie n'est déposé**, aucune donnée personnelle identifiable n'est collectée, données agrégées et anonymisées uniquement (pages vues, provenance, appareil). En l'absence de cookie, aucun bandeau de consentement n'est nécessaire. Si un cookie ou traceur venait à être ajouté par la suite, cette politique serait mise à jour en conséquence (bandeau de consentement et politique cookies dédiée).
 
+### Devis, signature en ligne et factures
+
+Lorsque je vous adresse un devis, je traite les coordonnées nécessaires pour l'établir puis facturer la prestation : nom ou raison sociale, adresse postale, email et, pour un professionnel ou une association, numéro SIREN, SIRET ou RNA.
+
+Si vous signez le devis en ligne, sur devis.webbygael.fr, j'enregistre en plus, comme preuve de votre accord : le nom saisi par le signataire, la date et l'heure de la signature, l'adresse IP et le navigateur utilisés, ainsi que vos choix (options retenues, délai de rétractation). Cette preuve vous est envoyée par email avec le devis accepté.
+
 ### Hébergement (journaux techniques)
 
 Le site est hébergé chez HG-Hosting (France). Comme tout hébergeur, il peut conserver des journaux techniques de connexion (adresse IP, horodatage) à des fins de sécurité, pendant 1 an (article L34-1 du Code des postes et des communications électroniques). Ces données ne sont pas exploitées par Gaël Pilet à d'autres fins.
@@ -35,18 +41,25 @@ Le site est hébergé chez HG-Hosting (France). Comme tout hébergeur, il peut c
 - Répondre à vos demandes
 - Organiser les rendez-vous en visioconférence
 - Mesurer l'audience du site à des fins statistiques
+- Établir les devis, recueillir et prouver leur acceptation, facturer les prestations
 
 ## Base légale
 
 Le traitement repose sur l'intérêt légitime de Gaël Pilet à répondre aux demandes commerciales que vous lui adressez spontanément.
 
+Pour les devis, leur signature et les factures, il repose sur l'exécution du contrat et des mesures précontractuelles prises à votre demande, sur mes obligations comptables, et sur mon intérêt légitime à conserver la preuve de votre accord.
+
 ## Destinataires
 
 Les données du formulaire sont transmises par email à Gaël Pilet uniquement. Aucune donnée n'est vendue ni cédée à des tiers, hormis Cal.com pour la prise de rendez-vous.
 
+Les devis, les preuves de signature et les factures sont hébergés en France chez HG-Hosting et sauvegardés en France chez OVHcloud, dont la messagerie achemine aussi les emails correspondants. Ces prestataires interviennent comme sous-traitants techniques.
+
 ## Durée de conservation
 
 Les données transmises via le formulaire sont conservées 3 ans à compter du dernier contact, sauf obligation légale contraire ou relation contractuelle en cours.
+
+Les devis, les preuves de signature et les factures sont conservés 10 ans à compter de la clôture de l'exercice comptable concerné : c'est la durée de conservation des pièces comptables et des contrats conclus en ligne avec un consommateur.
 
 ## Vos droits
 
