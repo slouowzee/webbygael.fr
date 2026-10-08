@@ -32,6 +32,8 @@ Lorsque je vous adresse un devis, je traite les coordonnées nécessaires pour l
 
 Si vous signez le devis en ligne, sur devis.webbygael.fr, j'enregistre en plus, comme preuve de votre accord : le nom saisi par le signataire, la date et l'heure de la signature, l'adresse IP et le navigateur utilisés, ainsi que vos choix (options retenues, délai de rétractation). Cette preuve vous est envoyée par email avec le devis accepté.
 
+Le nom du signataire est indispensable pour signer en ligne ; l'adresse IP et le navigateur sont relevés automatiquement au moment de la signature. Si vous préférez, je peux vous adresser le devis en PDF à dater, signer et me renvoyer : ces deux dernières données ne sont alors pas recueillies.
+
 ### Hébergement (journaux techniques)
 
 Le site est hébergé chez HG-Hosting (France). Comme tout hébergeur, il peut conserver des journaux techniques de connexion (adresse IP, horodatage) à des fins de sécurité, pendant 1 an (article L34-1 du Code des postes et des communications électroniques). Ces données ne sont pas exploitées par Gaël Pilet à d'autres fins.
@@ -47,7 +49,12 @@ Le site est hébergé chez HG-Hosting (France). Comme tout hébergeur, il peut c
 
 Le traitement repose sur l'intérêt légitime de Gaël Pilet à répondre aux demandes commerciales que vous lui adressez spontanément.
 
-Pour les devis, leur signature et les factures, il repose sur l'exécution du contrat et des mesures précontractuelles prises à votre demande, sur mes obligations comptables, et sur mon intérêt légitime à conserver la preuve de votre accord.
+Pour les devis, leur signature et les factures, il repose :
+
+- sur l'exécution du contrat, ou des mesures précontractuelles prises à votre demande, lorsque vous êtes vous-même le client ;
+- sur mon intérêt légitime à gérer la relation avec l'entreprise ou l'association pour laquelle vous agissez, lorsque le client n'est pas vous personnellement ;
+- sur mon obligation légale de conserver les pièces comptables (article L123-22 du Code de commerce) ;
+- sur mon intérêt légitime à conserver la preuve de votre accord en cas de litige.
 
 ## Destinataires
 
@@ -59,7 +66,7 @@ Les devis, les preuves de signature et les factures sont hébergés en France ch
 
 Les données transmises via le formulaire sont conservées 3 ans à compter du dernier contact, sauf obligation légale contraire ou relation contractuelle en cours.
 
-Les devis, les preuves de signature et les factures sont conservés 10 ans à compter de la clôture de l'exercice comptable concerné : c'est la durée de conservation des pièces comptables et des contrats conclus en ligne avec un consommateur.
+Les devis acceptés, les preuves de signature et les factures sont conservés 10 ans à compter de la clôture de l'exercice comptable concerné : c'est la durée de conservation des pièces comptables, et celle des contrats conclus en ligne avec un consommateur à partir de 120 €. Les devis restés sans suite sont conservés 3 ans à compter du dernier contact.
 
 ## Vos droits
 
