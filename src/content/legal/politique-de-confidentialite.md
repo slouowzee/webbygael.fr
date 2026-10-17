@@ -1,8 +1,8 @@
 # Politique de confidentialité
 
-*Dernière mise à jour : 6 octobre 2026*
+*Dernière mise à jour : 18 octobre 2026*
 
-Cette politique décrit comment Gaël Pilet collecte et traite vos données personnelles lorsque vous utilisez le site webbygael.fr ou lorsque vous recevez et signez un devis, conformément au Règlement Général sur la Protection des Données (RGPD).
+Cette politique décrit comment Gaël Pilet collecte et traite vos données personnelles lorsque vous utilisez le site webbygael.fr ou lorsque vous recevez et signez un devis, ou lorsque vous utilisez votre espace client, conformément au Règlement Général sur la Protection des Données (RGPD).
 
 ## Responsable du traitement
 
@@ -34,6 +34,16 @@ Si vous signez le devis en ligne, sur devis.webbygael.fr, j'enregistre en plus, 
 
 Le nom du signataire est indispensable pour signer en ligne ; l'adresse IP et le navigateur sont relevés automatiquement au moment de la signature. Si vous préférez, je peux vous adresser le devis en PDF à dater, signer et me renvoyer : ces deux dernières données ne sont alors pas recueillies.
 
+### Espace client
+
+Une fois un devis accepté, vous disposez d'un espace client, sur devis.webbygael.fr : vous y suivez l'avancement de vos projets et y retrouvez vos devis, vos factures et les fichiers que je vous remets.
+
+Pour vous y connecter, vous saisissez votre email et recevez un lien de connexion valable quinze minutes et utilisable une seule fois ; il n'y a pas de mot de passe. J'enregistre alors la date, l'adresse IP et le navigateur de chaque connexion, ainsi que les téléchargements de documents, afin de protéger votre accès et de repérer un usage anormal. Vous pouvez fermer vous-même vos sessions depuis l'espace.
+
+Un cookie de session est déposé à la connexion. Il sert uniquement à vous reconnaître pendant trente jours au plus ; strictement nécessaire au service que vous demandez, il ne requiert pas votre consentement et ne sert à aucune mesure d'audience ni publicité.
+
+Lorsque vous validez une étape ou laissez un commentaire, j'enregistre le texte saisi, le nom indiqué, la date et, pour une validation, l'adresse IP et le navigateur utilisés. Les commentaires servent au suivi du projet : n'y indiquez pas de données sensibles.
+
 ### Hébergement (journaux techniques)
 
 Le site est hébergé chez HG-Hosting (France). Comme tout hébergeur, il peut conserver des journaux techniques de connexion (adresse IP, horodatage) à des fins de sécurité, pendant 1 an (article L34-1 du Code des postes et des communications électroniques). Ces données ne sont pas exploitées par Gaël Pilet à d'autres fins.
@@ -44,6 +54,7 @@ Le site est hébergé chez HG-Hosting (France). Comme tout hébergeur, il peut c
 - Organiser les rendez-vous en visioconférence
 - Mesurer l'audience du site à des fins statistiques
 - Établir les devis, recueillir et prouver leur acceptation, facturer les prestations
+- Vous informer de l'avancement de vos projets, échanger avec vous, vous remettre vos documents et sécuriser l'accès à votre espace client
 
 ## Base légale
 
@@ -56,17 +67,29 @@ Pour les devis, leur signature et les factures, il repose :
 - sur mon obligation légale de conserver les pièces comptables (article L123-22 du Code de commerce) ;
 - sur mon intérêt légitime à conserver la preuve de votre accord en cas de litige.
 
+Pour l'espace client, il repose :
+
+- sur l'exécution du contrat pour le suivi du projet, les échanges et la remise des documents ;
+- sur mon intérêt légitime à sécuriser l'accès à votre espace (journal des connexions) et à conserver la preuve de vos validations.
+
 ## Destinataires
 
 Les données du formulaire sont transmises par email à Gaël Pilet uniquement. Aucune donnée n'est vendue ni cédée à des tiers, hormis Cal.com pour la prise de rendez-vous.
 
-Les devis, les preuves de signature et les factures sont hébergés en France chez HG-Hosting et sauvegardés en France chez OVHcloud, dont la messagerie achemine aussi les emails correspondants. Ces prestataires interviennent comme sous-traitants techniques.
+Les devis, les preuves de signature, les factures et le contenu de l'espace client sont hébergés en France chez HG-Hosting et sauvegardés en France chez OVHcloud, dont la messagerie achemine aussi les emails correspondants. Ces prestataires interviennent comme sous-traitants techniques.
 
 ## Durée de conservation
 
 Les données transmises via le formulaire sont conservées 3 ans à compter du dernier contact, sauf obligation légale contraire ou relation contractuelle en cours.
 
 Les devis acceptés, les preuves de signature et les factures sont conservés 10 ans à compter de la clôture de l'exercice comptable concerné : c'est la durée de conservation des pièces comptables, et celle des contrats conclus en ligne avec un consommateur à partir de 120 €. Les devis restés sans suite sont conservés 3 ans à compter du dernier contact.
+
+Pour l'espace client :
+
+- le suivi d'un projet, les échanges, les validations et les fichiers remis sont conservés pendant le projet, puis 5 ans après sa fin, durée pendant laquelle un litige peut naître (article 2224 du Code civil, article L110-4 du Code de commerce) ;
+- l'accès à l'espace est fermé 2 ans après la fin de votre dernier projet ou, à défaut, après votre dernier devis accepté ; vos documents restent disponibles sur simple demande pendant leur durée de conservation ;
+- le journal des connexions est conservé 6 mois ;
+- une session dure 30 jours au plus ; un lien de connexion est effacé dès qu'il est utilisé ou expiré.
 
 ## Vos droits
 
@@ -77,3 +100,5 @@ Vous disposez également du droit d'introduire une réclamation auprès de la CN
 ## Sécurité
 
 Des mesures techniques raisonnables sont mises en œuvre pour protéger vos données contre tout accès non autorisé, perte ou divulgation.
+
+L'accès à l'espace client passe par un lien reçu sur votre email : gardez l'accès à votre boîte de messagerie protégé. Si vous pensez qu'un tiers a pu accéder à votre espace, fermez vos sessions et écrivez-moi à contact@webbygael.fr.
