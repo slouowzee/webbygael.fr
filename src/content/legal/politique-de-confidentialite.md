@@ -30,13 +30,13 @@ Le site utilise Umami, une solution de statistiques auto-hébergée et respectue
 
 Lorsque je vous adresse un devis, je traite les coordonnées nécessaires pour l'établir puis facturer la prestation : nom ou raison sociale, adresse postale, email et, pour un professionnel ou une association, numéro SIREN, SIRET ou RNA.
 
-Si vous signez le devis en ligne, sur devis.webbygael.fr, j'enregistre en plus, comme preuve de votre accord : le nom saisi par le signataire, la date et l'heure de la signature, l'adresse IP et le navigateur utilisés, ainsi que vos choix (options retenues, délai de rétractation). Cette preuve vous est envoyée par email avec le devis accepté.
+Si vous signez le devis en ligne, sur client.webbygael.fr, j'enregistre en plus, comme preuve de votre accord : le nom saisi par le signataire, la date et l'heure de la signature, l'adresse IP et le navigateur utilisés, ainsi que vos choix (options retenues, délai de rétractation). Cette preuve vous est envoyée par email avec le devis accepté.
 
 Le nom du signataire est indispensable pour signer en ligne ; l'adresse IP et le navigateur sont relevés automatiquement au moment de la signature. Si vous préférez, je peux vous adresser le devis en PDF à dater, signer et me renvoyer : ces deux dernières données ne sont alors pas recueillies.
 
 ### Espace client
 
-Une fois un devis accepté, vous disposez d'un espace client, sur devis.webbygael.fr : vous y suivez l'avancement de vos projets et y retrouvez vos devis, vos factures et les fichiers que je vous remets.
+Une fois un devis accepté, vous disposez d'un espace client, sur client.webbygael.fr : vous y suivez l'avancement de vos projets et y retrouvez vos devis, vos factures et les fichiers que je vous remets.
 
 Pour vous y connecter, vous saisissez votre email et recevez un lien de connexion valable quinze minutes et utilisable une seule fois ; il n'y a pas de mot de passe. J'enregistre alors la date, l'adresse IP et le navigateur de chaque connexion, ainsi que les téléchargements de documents, afin de protéger votre accès et de repérer un usage anormal. Vous pouvez fermer vous-même vos sessions depuis l'espace.
 
