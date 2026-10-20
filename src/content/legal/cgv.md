@@ -1,6 +1,6 @@
 # Conditions Générales de Vente (CGV)
 
-*Dernière mise à jour : 5 octobre 2026*
+*Dernière mise à jour : 20 octobre 2026*
 
 **Prestataire :** Gaël Pilet, entrepreneur individuel — SIRET 10938587200014 — 62 avenue Maréchal Juin, 17000 La Rochelle — contact@webbygael.fr — TVA non applicable (art. 293 B du CGI).
 
@@ -40,6 +40,8 @@ Les droits de propriété intellectuelle sur les développements réalisés sont
 ## Article 7 — Obligations du Client
 
 Le Client s'engage à fournir en temps utile les informations, accès et contenus nécessaires à la réalisation de la prestation, et à valider les livrables dans les délais convenus.
+
+Les livrables sont soumis à la validation du Client, depuis son espace client ou par écrit. La validation vaut réception du livrable concerné : le Client reconnaît qu'il est conforme à la commande, sous réserve des anomalies qu'il signale à cette occasion. La validation de la livraison finale vaut réception de la prestation et rend le solde exigible dans les conditions de l'article 4. Elle ne prive le Client d'aucune garantie légale.
 
 ## Article 8 — Responsabilité et garanties
 
