@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-*Dernière mise à jour : 18 octobre 2026*
+*Dernière mise à jour : 21 octobre 2026*
 
 Cette politique décrit comment Gaël Pilet collecte et traite vos données personnelles lorsque vous utilisez le site webbygael.fr ou lorsque vous recevez et signez un devis, ou lorsque vous utilisez votre espace client, conformément au Règlement Général sur la Protection des Données (RGPD).
 
@@ -24,7 +24,11 @@ La réservation de visio passe par Cal.com, un service tiers. Les données que v
 
 ### Mesure d'audience (Umami)
 
-Le site utilise Umami, une solution de statistiques auto-hébergée et respectueuse de la vie privée : **aucun cookie n'est déposé**, aucune donnée personnelle identifiable n'est collectée, données agrégées et anonymisées uniquement (pages vues, provenance, appareil). En l'absence de cookie, aucun bandeau de consentement n'est nécessaire. Si un cookie ou traceur venait à être ajouté par la suite, cette politique serait mise à jour en conséquence (bandeau de consentement et politique cookies dédiée).
+Le site utilise Umami, une solution de statistiques auto-hébergée et respectueuse de la vie privée. **Umami ne dépose aucun cookie**. L'adresse IP est traitée de façon transitoire pour produire des statistiques agrégées (pages vues, provenance, appareil), sans être conservée dans les données d'audience. Un identifiant de session est généré à partir de données techniques de votre navigateur et d'un sel renouvelé chaque mois ; il sert uniquement à distinguer les visites et ne permet pas de vous suivre d'un mois à l'autre.
+
+Ces statistiques servent uniquement à mesurer la fréquentation de ce site, sans recoupement avec d'autres traitements ni suivi sur d'autres sites. Elles relèvent de l'exemption de consentement prévue pour la mesure d'audience : aucun bandeau n'est donc nécessaire. Elles sont conservées 13 mois maximum.
+
+Si un cookie ou un traceur venait à être ajouté, cette politique serait mise à jour (bandeau de consentement et politique cookies dédiée).
 
 ### Devis, signature en ligne et factures
 
@@ -72,6 +76,8 @@ Pour l'espace client, il repose :
 - sur l'exécution du contrat pour le suivi du projet, les échanges et la remise des documents ;
 - sur mon intérêt légitime à sécuriser l'accès à votre espace (journal des connexions) et à conserver la preuve de vos validations.
 
+Pour la mesure d'audience : mon intérêt légitime à connaître la fréquentation du site et à l'améliorer.
+
 ## Destinataires
 
 Les données du formulaire sont transmises par email à Gaël Pilet uniquement. Aucune donnée n'est vendue ni cédée à des tiers, hormis Cal.com pour la prise de rendez-vous.
@@ -81,6 +87,8 @@ Les devis, les preuves de signature, les factures et le contenu de l'espace clie
 ## Durée de conservation
 
 Les données transmises via le formulaire sont conservées 3 ans à compter du dernier contact, sauf obligation légale contraire ou relation contractuelle en cours.
+
+Les statistiques d'audience sont conservées 13 mois maximum.
 
 Les devis acceptés, les preuves de signature et les factures sont conservés 10 ans à compter de la clôture de l'exercice comptable concerné : c'est la durée de conservation des pièces comptables, et celle des contrats conclus en ligne avec un consommateur à partir de 120 €. Les devis restés sans suite sont conservés 3 ans à compter du dernier contact.
 

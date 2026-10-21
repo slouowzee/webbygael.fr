@@ -16,13 +16,15 @@ Le site webbygael.fr est édité par :
 - **Directeur de la publication :** Gaël Pilet
 - **TVA :** non applicable, article 293 B du Code général des impôts
 
-## Hébergement
+## Hébergement du site
 
-Le site est hébergé sur un serveur VPS :
-
-- **Hébergeur :** HG-Hosting
-- **Adresse :** 2 Allée du Verger, Nozay, 44170
+- **Dénomination :** HG-Hosting
+- **Forme juridique :** Société par Actions Simplifiée, au capital de 100€
+- **SIREN :** 991 163 932, **SIRET du siège :** 991 163 932 00015
+- **Adresse :** 2 Allée du Verger, Nozay, 44170, France
 - **Téléphone :** +33 7 43 75 91 66
+- **Courriel :** it-support@hg-hosting.fr
+- **Site :** hg-hosting.fr 
 
 L'envoi du formulaire de contact utilise le service SMTP d'OVH :
 
