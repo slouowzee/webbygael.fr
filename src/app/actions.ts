@@ -3,7 +3,7 @@
 import { headers } from "next/headers";
 import nodemailer from "nodemailer";
 import { createBooking, fetchSlots } from "@/lib/cal";
-import { allowRequest, OBJETS, validateContact, type ContactErrors, validateBooking } from "@/lib/contact";
+import { allowRequest, OBJETS, validateContact, type BookingErrors, type ContactErrors, validateBooking } from "@/lib/contact";
 import { site } from "@/lib/site";
 
 export type ContactState = { ok: boolean; errors?: ContactErrors; error?: string };
@@ -56,21 +56,21 @@ export async function getSlots(month: string): Promise<SlotsResult> {
   }
 }
 
-export type BookingResult = { ok: boolean; errors?: { name?: string; email?: string }; error?: string };
+export type BookingResult = { ok: boolean; errors?: BookingErrors; error?: string };
 
-export async function bookVisio(input: { start: string; name: string; email: string; trap?: string }): Promise<BookingResult> {
+export async function bookVisio(input: { start: string; name: string; email: string; context: string; trap?: string }): Promise<BookingResult> {
   if (!input || typeof input.start !== "string") return { ok: false, error: BOOKING_FAILED };
   if (input.trap) return { ok: true };
 
-  const name = line(input.name, 200), email = line(input.email, 254);
-  const errors = validateBooking(name, email);
-  if (errors.name || errors.email) return { ok: false, errors };
+  const name = line(input.name, 200), email = line(input.email, 254), context = String(input.context ?? "").trim().slice(0, 2000);
+  const errors = validateBooking(name, email, context);
+  if (Object.keys(errors).length) return { ok: false, errors };
   if (Number.isNaN(Date.parse(input.start))) return { ok: false, error: BOOKING_FAILED };
 
   if (!allowRequest(`visio:${await clientIp()}`, 2)) return { ok: false, error: TOO_MANY };
 
   try {
-    await createBooking(input.start, name, email);
+    await createBooking(input.start, name, email, context);
   } catch (e) {
     console.error("Réservation impossible", e);
     return { ok: false, error: BOOKING_FAILED };

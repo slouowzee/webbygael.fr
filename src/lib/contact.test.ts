@@ -18,8 +18,9 @@ test("cinq messages par adresse IP toutes les dix minutes", () => {
   assert.equal(allowRequest("slots:1.2.3.4", 1, t), false);
 });
 
-test("une réservation demande un nom et un email valide", () => {
-  assert.deepEqual(validateBooking("Gaël", "nom@exemple.fr"), {});
-  assert.ok(validateBooking("  ", "nom@exemple.fr").name);
-  assert.ok(validateBooking("Gaël", "nom@exemple").email);
+test("une réservation demande un nom, un email valide et du contexte", () => {
+  assert.deepEqual(validateBooking("Gaël", "nom@exemple.fr", "Refonte de mon site"), {});
+  assert.ok(validateBooking("  ", "nom@exemple.fr", "Refonte").name);
+  assert.ok(validateBooking("Gaël", "nom@exemple", "Refonte").email);
+  assert.ok(validateBooking("Gaël", "nom@exemple.fr", "  ").context);
 });

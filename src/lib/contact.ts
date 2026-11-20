@@ -11,12 +11,13 @@ export function validateContact(email: string, message: string): ContactErrors {
   return errors;
 }
 
-export type BookingErrors = { name?: string; email?: string };
+export type BookingErrors = { name?: string; email?: string; context?: string };
 
-export function validateBooking(name: string, email: string): BookingErrors {
+export function validateBooking(name: string, email: string, context: string): BookingErrors {
   const errors: BookingErrors = {};
   if (!name.trim()) errors.name = "Indiquez votre nom.";
   if (!EMAIL.test(email)) errors.email = "Adresse incomplète (ex. nom@exemple.fr).";
+  if (!context.trim()) errors.context = "Dites-moi en quelques mots de quoi vous voulez parler.";
   return errors;
 }
 

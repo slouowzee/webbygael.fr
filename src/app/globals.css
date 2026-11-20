@@ -256,7 +256,8 @@ footer{position:relative;z-index:2;border-top:1.5px solid var(--ink);background:
 .legal-end.is-pinned footer{position:absolute;inset:auto 0 0 0;height:100dvh;min-height:0}
 
 .panel--visio .field .e{color:inherit}
-.panel--visio .field input:focus{outline-color:var(--on-violet)}
+.panel--visio .field input:focus,.panel--visio .field textarea:focus{outline-color:var(--on-violet)}
+#cal-who textarea{resize:vertical}
 #cal-who{align-self:center}
 #cal-who .btn{justify-self:start}
 .cal-done{gap:10px}

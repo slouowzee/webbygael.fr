@@ -92,11 +92,11 @@ export function Agenda() {
 
   function book(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const data = new FormData(e.currentTarget), name = String(data.get("name")).trim(), email = String(data.get("email")).trim();
-    const errors = validateBooking(name, email);
-    if (errors.name || errors.email) { setResult({ ok: false, errors }); return; }
+    const data = new FormData(e.currentTarget), name = String(data.get("name")).trim(), email = String(data.get("email")).trim(), context = String(data.get("context")).trim();
+    const errors = validateBooking(name, email, context);
+    if (Object.keys(errors).length) { setResult({ ok: false, errors }); return; }
     startTransition(async () => {
-      const r = await bookVisio({ start: slot, name, email, trap: String(data.get("confirmation") ?? "") });
+      const r = await bookVisio({ start: slot, name, email, context, trap: String(data.get("confirmation") ?? "") });
       setResult(r);
       if (r.ok) { track("visio-reservee"); setBooked({ day: picked!, start: slot }); setStep("done"); setCache(c => { const rest = { ...c }; delete rest[month]; return rest; }); }
     });
@@ -164,6 +164,7 @@ export function Agenda() {
             <div className="hp" aria-hidden="true"><label>Laissez ce champ vide<input name="confirmation" tabIndex={-1} autoComplete="off" data-1p-ignore data-lpignore="true" data-bwignore /></label></div>
             <div className="field"><label htmlFor="v-nom">Nom et prénom</label><input id="v-nom" name="name" autoComplete="name" required aria-invalid={!!result.errors?.name} aria-describedby="e-v-nom" /><div className="e" id="e-v-nom">{result.errors?.name}</div></div>
             <div className="field"><label htmlFor="v-mail">Email</label><input id="v-mail" name="email" type="email" autoComplete="email" required aria-invalid={!!result.errors?.email} aria-describedby="e-v-mail" /><div className="e" id="e-v-mail">{result.errors?.email}</div></div>
+            <div className="field"><label htmlFor="v-context">De quoi voulez-vous parler ?</label><textarea id="v-context" name="context" rows={3} maxLength={2000} required aria-invalid={!!result.errors?.context} aria-describedby="e-v-context" /><div className="e" id="e-v-context">{result.errors?.context}</div></div>
             <button className="btn btn--light" type="submit" disabled={pending}>{pending ? "Réservation…" : "Confirmer la visio"}</button>
           </form>
         )}

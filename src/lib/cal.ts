@@ -19,12 +19,12 @@ export async function fetchSlots(month: string): Promise<Record<string, string[]
   return Object.fromEntries(Object.entries(data).filter(([day]) => day.startsWith(month)).map(([day, slots]) => [day, slots.map(s => s.start)]));
 }
 
-export async function createBooking(start: string, name: string, email: string) {
+export async function createBooking(start: string, name: string, email: string, notes: string) {
   const res = await fetch(`${API}/bookings`, {
     method: "POST",
     headers: headers("2026-02-25"),
     signal: AbortSignal.timeout(10_000),
-    body: JSON.stringify({ ...event(), start: new Date(start).toISOString(), attendee: { name, email, timeZone: TZ, language: "fr" } }),
+    body: JSON.stringify({ ...event(), start: new Date(start).toISOString(), attendee: { name, email, timeZone: TZ, language: "fr" }, bookingFieldsResponses: { notes } }),
   });
   if (!res.ok) throw new Error(`Cal.com bookings ${res.status} ${(await res.text()).slice(0, 300)}`);
 }
